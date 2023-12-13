@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+    <title>Official Website Arkan Florian</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header class="head">
+        <div class="g-1">
+            <img src="telkom.png" >
+        </div>    
+        <nav>
+            <a href="">Home</a>
+            <a href="#aboutme">About</a>
+            <a href="#projectme">Project</a>
+            <a href="#contactme">Contact</a>
+        </nav>
+        <script>
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+            
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+            
+                if (targetElement) {
+                  targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+              });
+            });
+            </script>
+    </header>
+    <div class="container" id ="hero">
+        <div class="desc">
+            <h1 class="hi">Hi, I am </h1>
+            <h1 class="name">   Arkan Florian
+            </h1>
+            <h3>Front end</h3>
+            <buttton class="hire">Hire me</buttton>
+            <button class="download">Donwload CV</button>
+        </div>
+        <div class="imghero">
+            <img src="https://hsr.honeyhunterworld.com/img/eidolon/lunarlance-shines-skyward-dome-eidolon_icon.webp?x23126" width="180px" height="180px">
+        </div>
+    </div>
+
+    <div class="about" id="aboutme">
+        
+        <h2 class="t-1">About <br></h2>
+        <p>
+            Saya adalah Arkan, lahir pada tanggal 13 Juli, dan hobi saya adalah olahraga. Apa yang membuat saya istimewa adalah kemampuan saya yang sangat peka terhadap perasaan orang lain. Saya memiliki harapan besar untuk mencapai tinggi badan 185 cm, </p>
+    </div>
+    <div class="project">
+        <div class="imgproject">
+            <img src="https://hsr.honeyhunterworld.com/img/eidolon/lunarlance-shines-skyward-dome-eidolon_icon.webp?x23126" width="800" height="800">
+        </div>
+        <h1 class="t-2">Project</h1>
+        <h3 class="t-2-1">Contex</h3>
+        <p>lorem psjbkdbvbsdbsbdjbsdkbsbj</p>
+
+
+    </div>
+
+
+
+
+    <img src="https://hsr.honeyhunterworld.com/img/eidolon/lunarlance-shines-skyward-dome-eidolon_icon.webp?x23126" width="500" height="500">
+    <img src="https://hsr.honeyhunterworld.com/img/eidolon/lunarlance-shines-skyward-dome-eidolon_icon.webp?x23126"width="500" height="500">
+    <img src="https://hsr.honeyhunterworld.com/img/eidolon/lunarlance-shines-skyward-dome-eidolon_icon.webp?x23126"width="500" height="500">
+    <img src="https://hsr.honeyhunterworld.com/img/eidolon/lunarlance-shines-skyward-dome-eidolon_icon.webp?x23126"width="500" height="500">
+    <img src="https://hsr.honeyhunterworld.com/img/eidolon/lunarlance-shines-skyward-dome-eidolon_icon.webp?x23126"width="500" height="500">
+    <img src="https://hsr.honeyhunterworld.com/img/eidolon/lunarlance-shines-skyward-dome-eidolon_icon.webp?x23126"width="500" height="500">
+    <img src="https://hsr.honeyhunterworld.com/img/eidolon/lunarlance-shines-skyward-dome-eidolon_icon.webp?x23126"width="500" height="500">
+    <img src="https://hsr.honeyhunterworld.com/img/eidolon/lunarlance-shines-skyward-dome-eidolon_icon.webp?x23126"width="500" height="500">
+    <img src="https://hsr.honeyhunterworld.com/img/eidolon/lunarlance-shines-skyward-dome-eidolon_icon.webp?x23126"width="500" height="500">
+
+    
+    <div class="contact" id="contactme">
+        <div class="contact1">
+            <h1>
+                Arkan Florian
+            </h1>
+            <br>
+            <p>Mari buat bisnis / usaha Anda selangkah lebih maju. Hubungi Saya Sekarang!</p>
+            <br>
+            <p>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <a href="mailto:arkanflorian13@gmail.com">arkanflorian13@gmail.com</a></p>
+            <p>Facebook&nbsp;&nbsp;: Arkan Florian</p>
+            <p>Instagram    : @sayaarkan</p>
+            <p>Website&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <a href="https://arkanflorian.online/">arkanflorian.online</a></p>
+        </div>
+
+        <div class="contact2">
+            <h1>
+                Hubungi Saya
+            </h1>
+            <br>
+            <p>Saya selalu menunggu Anda, Mari mulai sedikit kemajuan bersama Saya untuk bisnis / usaha Anda!</p>
+            <div class="input-group">
+                <input type="text" placeholder="Masukan Alamat Email Anda">
+                <button id="tombol">
+                Hubungi
+                </button>
+            </div>
+        </div>
+        <script>
+            document.getElementById("tombol").addEventListener("click", function() {
+              // URL yang ingin Anda tampilkan dalam jendela popup
+              var url = "hubungi.html";
+          
+              // Mengatur ukuran jendela popup
+              var lebar = 400;
+              var tinggi = 300;
+          
+              // Menghitung posisi tengah untuk jendela popup
+              var left = (screen.width - lebar) / 2;
+              var top = (screen.height - tinggi) / 2;
+          
+              // Membuka jendela popup
+              window.open(url, "_blank", "width=" + lebar + ", height=" + tinggi + ", left=" + left + ", top=" + top);
+            });
+          </script>
+          
+    </div>
+       
+</body>
+</html>

@@ -1,0 +1,127 @@
+body{
+    font-family: "Poppins";
+    margin: -8px;
+}
+
+.head {
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+    position: sticky;
+    top: 0; 
+    background-color:white; 
+    padding: 10px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.g-1 {
+    margin-left: 30px;
+}
+
+.container {
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+header > div > img {
+    width: 50px;
+    height: 50px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+header > nav > a:hover {
+   
+    border-color: rgb(0, 0, 0);
+    color: rgb(79, 108, 196);
+}
+header > nav > a:active {
+    
+    border-bottom-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.hire {
+    background-color: black;
+    color: white ;
+    border-radius: 12px;
+    padding: 12px 10px 12px 10px;
+}
+.hire:hover {
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px 10px 12px 10px;
+}
+.download {
+    background-color: black;
+    color: white ;
+    border-radius: 12px;
+    padding: 12px 10px 12px 10px;
+}
+.download:hover {
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px 10px 12px 10px;
+}
+
+.role {
+    font-weight: 400;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    padding: 30px 10%;
+    align-items: center;
+ 
+}
+.t-1 {
+    margin-right: 15px;
+}
+
+.project {
+ 
+    justify-content: center;
+    padding: 30px 10%;
+    align-items: center;
+
+}
+.t-2 {
+    font-size: 70px;
+}
+.t-2-1 {
+    font-size: 25px;
+}
+.imgproject {
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.contact1 {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+.contact2 {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
